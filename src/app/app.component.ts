@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'intro-angular-idgs901';
+  alumno = {
+    matricula : 12345,
+    nombre : 'Pedro',
+    edad : 25,
+    fechanac : new Date(),
+    pego : 128.38
+  }
+
+  calcular3(n:number): number {
+    return n * 2;
+  }
 }
